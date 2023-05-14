@@ -13,6 +13,13 @@
   <!--navegação-->
   <nav>
     <img src="img/clube-logo.png" alt="">
+    <input type="checkbox" id="menu-btn">
+    <label for="menu-btn" class="menu-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    <label>
+
     <div class="navigation">
       <ul>
         <li><a href="#">Home</a></li>
@@ -104,6 +111,19 @@
   </footer>
 
   <script src="https://kit.fontawesome.com/27db8b9de8.js" crossorigin="anonymous"></script>
+
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const navigation = document.querySelector('.navigation');
+
+    menuBtn.addEventListener('change', function() {
+      if (this.checked) {
+        navigation.style.right = '0';
+      } else {
+        navigation.style.right = '-100%';
+      }
+    });
+  </script>
 </body>
 
 </html>
