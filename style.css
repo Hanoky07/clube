@@ -249,7 +249,7 @@ footer a {
   border-radius: 8px;
 }
 
-@media (max-width: 999px) {
+@media (max-width: 769px) {
   nav {
     padding: 15px 20px;
   }
