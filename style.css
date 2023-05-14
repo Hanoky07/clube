@@ -128,24 +128,25 @@ nav .navigation ul li a:hover::after {
 
 #home a.blue {
   color: #fff;
-  background: darkslateblue;
+  background: #483d8b;
   transition: .5s;
+  animation: animate-outline 1s ease-out infinite;
 }
 
-#home a.blue:hover {
-  color: darkslateblue;
-  background: #fff;
+@keyframes animate-outline {
+  from {
+    outline: 0px solid #483d8b;
+  }
+
+  to {
+    outline: 10px solid #473d8b2d;
+  }
 }
 
 #home a.yellow {
   color: #fff;
   background: goldenrod;
   transition: .5s;
-}
-
-#home a.yellow:hover {
-  color: goldenrod;
-  background: #fff;
 }
 
 /*features*/
