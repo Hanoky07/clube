@@ -3,8 +3,8 @@ const navigation = document.querySelector('.navigation');
 
 menuBtn.addEventListener('change', function() {
   if (this.checked) {
-    navigation.style.right = '0';
+    navigation.style.left = '0';
   } else {
-    navigation.style.right = '100%';
+    navigation.style.left = '100%';
   }
 });
