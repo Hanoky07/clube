@@ -307,7 +307,7 @@ footer a {
   }
 
   #menu-btn:checked ~ .navigation {
-    right: 0;
+    left: 0;
   }
 
   .menu-icon span {
@@ -349,11 +349,11 @@ footer a {
     right: -100%;
     background: #0b0909cf;
     width: 100%;
-    transition: right 0.3s ease;
+    transition: left 0.3s ease;
   }
 
   #menu-btn:checked ~ .navigation {
-    right: 0;
+    left: 0;
   }
 
   nav .navigation ul li {
