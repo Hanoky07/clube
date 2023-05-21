@@ -309,6 +309,8 @@ h6 {
 .grid-template-areas-1 {
 	grid-template-areas:
 		"fot1 fot2 fot3";
+    gap: 2px;
+    padding: 8px;
 }
 
 /* Grid Item */
