@@ -1,10 +1,10 @@
-const menuBtn = document.getElementById('menu-btn');
-const navigation = document.querySelector('.navigation');
+const btnMobile = document.getElementById('btn-mob')
 
-menuBtn.addEventListener('change', function() {
-  if (this.checked) {
-    navigation.style.left = '0';
-  } else {
-    navigation.style.left = '100%';
-  }
-});
+function toggleMenu(event) {
+    if (event.type === 'touchstart') event.preventDefault();
+    const nav = document.getElementById('nav');
+    nav.classList.toggle('active');
+}
+
+btnMobile.addEventListener('click', toggleMenu);
+btnMobile.addEventListener('touchstart', toggleMenu);
