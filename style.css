@@ -29,9 +29,6 @@ a {
     color: #fff;
     font-weight: 600;
 }
-a:hover {
-    background: rgba(148, 148, 148, 0.133);
-}
 
 #logo {
     color: #fff;
@@ -44,8 +41,12 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 70px;
-    padding: 30px;
+    height: 100px;
+    padding: 40px;
+}
+
+.hea {
+  background: #daa520;
 }
 
 #menu {
@@ -140,7 +141,7 @@ a:hover {
   /*sidenav*/
   .sidenav {
     background: #e7e7e7;
-    padding: 30px;
+    padding: 25px;
     overflow-x: auto;
   }
   
@@ -539,7 +540,7 @@ a:hover {
         position: absolute;
         width: 100%;
         height: 0;
-        top: 70px;
+        top: 100px;
         right: 0;
         background: #111;
         transition: .5s;
@@ -608,7 +609,7 @@ a:hover {
 
     #nav.active #menuhb::after {
         transform: rotate(-135deg);
-        top: -8px;
+        top: -9px;
     }
 
     /* footer */
