@@ -1,3 +1,4 @@
+// menu
 const btnMobile = document.getElementById('btn-mob')
 
 function toggleMenu(event) {
@@ -8,3 +9,10 @@ function toggleMenu(event) {
 
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
+
+// beta piscando
+var betaLabel = document.getElementById('beta');
+
+setInterval(function() {
+  betaLabel.style.visibility = betaLabel.style.visibility === 'hidden' ? 'visible' : 'hidden';
+}, 500);
