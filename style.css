@@ -610,6 +610,10 @@ a {
         display: block;
     }
 
+	.hea {
+		background: none;
+	}
+
     #menu {
         display: block;
         position: absolute;
